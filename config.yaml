@@ -1,0 +1,19 @@
+credentials:
+  usernames:
+    shravya:
+      email: beast@gamil.com
+      failed_login_attempts: 0 # Will be managed automatically
+      logged_in: False # Will be managed automatically
+      name: Shravya
+      password: vicky # Will be hashed automatically
+    vicky:
+      email: beast1@gamil.com
+      failed_login_attempts: 0 # Will be managed automatically
+      logged_in: False # Will be managed automatically
+      name: Vicky
+      password: shravya # Will be hashed automatically
+cookie:
+  expiry_days: 30
+  key: some_signature_key # Must be string
+  name: some_cookie_name
+  
